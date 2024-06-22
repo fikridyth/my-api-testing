@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="An impressive and flawless site template that includes various UI elements and countless features, attractive ready-made blocks and rich pages, basically everything you need to create a unique and professional website.">
+  <meta name="keywords"
+    content="bootstrap 5, business, corporate, creative, gulp, marketing, minimal, modern, multipurpose, one page, responsive, saas, sass, seo, startup, html5 template, site template">
+  <meta name="author" content="elemis">
+  <title>ZenPokeAPI</title>
+  <link rel="shortcut icon" href="./assets/img/zen-favicon.png">
+  <link rel="stylesheet" href="./assets/css/plugins.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="./assets/css/colors/purple.css">
+  <style>
+    @media (min-width: 992px) {
+      .navbar-nav>.nav-item>.nav-link {
+        position: relative;
+      }
+
+      .navbar-nav>.nav-item+.nav-item>.nav-link:before {
+        content: "";
+        display: block;
+        position: absolute;
+        width: 3px;
+        height: 3px;
+        top: 50%;
+        left: -2px;
+        background: rgba(0, 0, 0, 0.25);
+        border-radius: 50%;
+      }
+    }    
+
+    @media (max-width: 699px) {
+      .hide-on-lg {
+          display: none !important;
+      }
+
+      .detail-image {
+        height: 300px;
+        width: auto;
+      }
+    }
+    
+    @media (max-width: 400px) {
+      .detail-image {
+        height: 200px;
+        width: auto;
+      }
+    }
+
+    @media (min-width: 700px) {
+      .show-on-lg {
+          display: block !important;
+      }
+
+      .detail-image {
+        height: 200px;
+        width: auto;
+      }
+    }
+
+    @media (min-width: 1000px) {
+      .detail-image {
+        height: 300px;
+        width: auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <header class="wrapper bg-soft-primary">
+      <nav class="navbar navbar-expand-lg center-logo transparent position-absolute navbar-dark">
+        <div class="container justify-content-between align-items-center">
+          <div class="d-flex flex-row w-100 justify-content-between align-items-center d-lg-none">
+            <div class="navbar-brand"><a href="./index.html">
+                <img class="logo-dark w-50" src="./assets/img/zenwalker-logo.png"
+                  srcset="./assets/img/zenwalker-logo.png 2x" alt="" />
+                <img class="logo-light w-50" src="./assets/img/zenwalker-logo.png"
+                  srcset="./assets/img/zenwalker-logo.png 2x" alt="" />
+              </a></div>
+            <div class="navbar-other ms-auto">
+              <ul class="navbar-nav flex-row align-items-center">
+                <li class="nav-item d-lg-none">
+                  <button class="hamburger offcanvas-nav-btn"><span></span></button>
+                </li>
+              </ul>
+              <!-- /.navbar-nav -->
+            </div>
+            <!-- /.navbar-other -->
+          </div>
+          <!-- /.d-flex -->
+          <div class="navbar-collapse-wrapper d-flex flex-row align-items-center w-100">
+            <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+              <div class="offcanvas-header mx-lg-auto order-0 order-lg-1 d-lg-flex px-lg-15">
+                <a href="./index.html" class="transition-none d-none d-lg-flex">
+                  <img class="logo-dark w-75 mx-5" src="./assets/img/zenwalker-logo.png" alt="" />
+                  <img class="logo-light w-75 mx-5" src="./assets/img/zenwalker-logo.png" alt="" />
+                </a>
+                <h3 class="text-white fs-30 mb-0 d-lg-none">ZenAPI</h3>
+                <button type="button" class="btn-close btn-close-white d-lg-none" data-bs-dismiss="offcanvas"
+                  aria-label="Close"></button>
+              </div>
+              <div class="w-100 order-1 order-lg-0 d-lg-flex offcanvas-body">
+                <ul class="navbar-nav ms-lg-auto">
+                  <li class="nav-item dropdown dropdown-mega">
+                    <a class="nav-link scroll active" href="#homes">Homes</a>
+                  </li>
+                  <li class="nav-item dropdown dropdown-mega">
+                    <a class="nav-link scroll" href="#about">About</a>
+                  </li>
+                </ul>
+                <!-- /.navbar-nav -->
+              </div>
+              <div class="w-100 order-3 order-lg-2 d-lg-flex offcanvas-body">
+                <ul class="navbar-nav me-lg-auto">
+                  <li class="nav-item dropdown dropdown-mega">
+                    <a class="nav-link scroll" href="#pricing">PokeAPI</a>
+                  </li>
+                  <li class="nav-item dropdown dropdown-mega">
+                    <a class="nav-link scroll" href="#join">Contact Me</a>
+                  </li>
+                </ul>
+                <!-- /.navbar-nav -->
+              </div>
+              <div class="offcanvas-body d-lg-none order-4 mt-auto">
+                <div class="offcanvas-footer">
+                  <div>
+                    <a href="mailto:first.last@email.com" class="link-inverse">info@email.com</a>
+                    <br /> 00 (123) 456 78 90 <br />
+                    <nav class="nav social social-white mt-4">
+                      <a href="#"><i class="uil uil-twitter"></i></a>
+                      <a href="#"><i class="uil uil-facebook-f"></i></a>
+                      <a href="#"><i class="uil uil-dribbble"></i></a>
+                      <a href="#"><i class="uil uil-instagram"></i></a>
+                      <a href="#"><i class="uil uil-youtube"></i></a>
+                    </nav>
+                    <!-- /.social -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.navbar-collapse-wrapper -->
+        </div>
+        <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+    </header>
+    <!-- /header -->
+    <section id="homes" class="video-wrapper bg-overlay bg-overlay-gradient px-0 mt-0 min-vh-80">
+      <video poster="./assets/img/photos/movie2.jpg" src="./assets/media/pokemon.mp4" autoplay loop playsinline
+        muted></video>
+      <div class="video-content">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 col-xl-6 text-center text-white mx-auto">
+              <h1 class="display-1 fs-54 text-white mb-5"><span class="rotator-zoom">My API Testing,From PokeAPI,To Get
+                  Pokemon Data</span></h1>
+              <p class="lead fs-24 mb-0 mx-xxl-8">Here I am working on PokeAPI documentations to build this project.</p>
+            </div>
+            <!-- /column -->
+          </div>
+        </div>
+        <!-- /.video-content -->
+      </div>
+      <!-- /.content-overlay -->
+    </section>
+    <!-- /section -->
+    <section id="about" class="wrapper bg-light angled upper-end lower-end">
+      <div class="container pb-14 pb-md-16">
+        <div class="row">
+          <div class="col-12 mt-n15">
+            <figure class="rounded"><img src="./assets/img/banner.png" alt="" /></figure>
+            <div class="row" data-cue="slideInUp">
+              <div class="col-xl-10 mt-lg-5 mx-auto">
+                <div
+                  class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-300 text-white mt-n5 mt-lg-0 mt-lg-n50p mb-lg-n50p border-radius-lg-top"
+                  data-image-src="./assets/img/banner2.png">
+                  <div class="card-body p-9 p-xl-10">
+                    <div class="row align-items-center counter-wrapper gy-4 text-center">
+                      <div class="col-6 col-lg-3">
+                        <h3 class="counter counter-lg text-white">1000+</h3>
+                        <p>Pokemon's</p>
+                      </div>
+                      <!--/column -->
+                      <div class="col-6 col-lg-3">
+                        <h3 class="counter counter-lg text-white">9</h3>
+                        <p>Generation</p>
+                      </div>
+                      <!--/column -->
+                      <div class="col-6 col-lg-3">
+                        <h3 class="counter counter-lg text-white">10+</h3>
+                        <p>Series</p>
+                      </div>
+                      <!--/column -->
+                      <div class="col-6 col-lg-3">
+                        <h3 class="counter counter-lg text-white">10+</h3>
+                        <p>Video Games</p>
+                      </div>
+                      <!--/column -->
+                    </div>
+                    <!--/.row -->
+                  </div>
+                  <!--/.card-body -->
+                </div>
+                <!--/.card -->
+              </div>
+              <!-- /column -->
+            </div>
+            <!-- /.row -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+        <div class="swiper-container clients mt-5 mb-10" data-margin="30" data-dots="false" data-loop="true"
+          data-autoplay="true" data-autoplaytime="1" data-drag="false" data-speed="5000" data-items-xxl="7"
+          data-items-xl="6" data-items-lg="5" data-items-md="4" data-items-sm="3" data-items-xs="3">
+          <div class="swiper pe-none">
+            <div class="swiper-wrapper ticker">
+              <div class="swiper-slide px-5"><img src="./assets/img/brands/p1.png" alt="" /></div>
+              <div class="swiper-slide px-5"><img src="./assets/img/brands/p2.png" alt="" /></div>
+              <div class="swiper-slide px-5"><img src="./assets/img/brands/p3.png" alt="" /></div>
+              <div class="swiper-slide px-5"><img src="./assets/img/brands/p4.png" alt="" /></div>
+              <div class="swiper-slide px-5"><img src="./assets/img/brands/p5.png" alt="" /></div>
+              <div class="swiper-slide px-5"><img src="./assets/img/brands/p6.png" alt="" /></div>
+              <div class="swiper-slide px-5"><img src="./assets/img/brands/p7.png" alt="" /></div>
+              <div class="swiper-slide px-5"><img src="./assets/img/brands/p8.png" alt="" /></div>
+              <div class="swiper-slide px-5"><img src="./assets/img/brands/p9.png" alt="" /></div>
+              <div class="swiper-slide px-5"><img src="./assets/img/brands/p10.png" alt="" /></div>
+            </div>
+            <!--/.swiper-wrapper -->
+          </div>
+          <!-- /.swiper -->
+        </div>
+        <!-- /.swiper-container -->
+        <div class="row gx-lg-8 gy-8 mt-5 mt-md-12 mt-lg-0 align-items-center">
+          <div class="col-lg-6 order-lg-2">
+            <div class="row gx-md-5 gy-5" data-cues="fadeIn" data-group="images">
+              <div class="col-md-4 offset-md-2 align-self-end">
+                <figure class="rounded"><img src="./assets/img/do-2.jpg" alt=""></figure>
+              </div>
+              <!--/column -->
+              <div class="col-md-6 align-self-end">
+                <figure class="rounded"><img src="./assets/img/do-1.jpg" alt=""></figure>
+              </div>
+              <!--/column -->
+              <div class="col-md-6 offset-md-1">
+                <figure class="rounded"><img src="./assets/img/do-4.jpg" alt=""></figure>
+              </div>
+              <!--/column -->
+              <div class="col-md-4 align-self-start">
+                <figure class="rounded"><img src="./assets/img/do-3.jpg" alt=""></figure>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+          <div class="col-lg-6">
+            <h2 class="display-4 mb-3">What I Do?</h2>
+            <p class="lead fs-lg mb-8 pe-xxl-2">The service I'm offering <span
+                class="underline">specifically</span> focuses on the ease of finding Pokémon data using this API.</p>
+            <div class="row gx-xl-10 gy-6" data-cues="slideInUp" data-group="services">
+              <div class="col-md-6 col-lg-12 col-xl-6">
+                <div class="d-flex flex-row">
+                  <div>
+                    <div class="icon btn btn-circle btn-lg me-5"> 
+                      <img src="./assets/img/brands/d1.png" alt="" />
+                    </div>
+                  </div>
+                  <div>
+                    <h4 class="mb-1">Pokédex</h4>
+                    <p class="mb-0">Complete pokédex for your information.</p>
+                  </div>
+                </div>
+              </div>
+              <!--/column -->
+              <div class="col-md-6 col-lg-12 col-xl-6">
+                <div class="d-flex flex-row">
+                  <div>
+                    <div class="icon btn btn-circle btn-lg me-5"> 
+                      <img src="./assets/img/brands/d2.png" alt="" />
+                    </div>
+                  </div>
+                  <div>
+                    <h4 class="mb-1">News</h4>
+                    <p class="mb-0">Information about pokemon news.</p>
+                  </div>
+                </div>
+              </div>
+              <!--/column -->
+              <div class="col-md-6 col-lg-12 col-xl-6">
+                <div class="d-flex flex-row">
+                  <div>
+                    <div class="icon btn btn-circle btn-lg me-5"> 
+                      <img src="./assets/img/brands/d3.png" alt="" />
+                    </div>
+                  </div>
+                  <div>
+                    <h4 class="mb-1">Video Games</h4>
+                    <p class="mb-0">Information about pokemon video games.</p>
+                  </div>
+                </div>
+              </div>
+              <!--/column -->
+              <div class="col-md-6 col-lg-12 col-xl-6">
+                <div class="d-flex flex-row">
+                  <div>
+                    <div class="icon btn btn-circle btn-lg me-5"> 
+                      <img src="./assets/img/brands/d4.png" alt="" />
+                    </div>
+                  </div>
+                  <div>
+                    <h4 class="mb-1">Trading Card Game</h4>
+                    <p class="mb-0">Information about pokemon trading card game.</p>
+                  </div>
+                </div>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section class="wrapper bg-gray">
+      <div class="container py-14 py-md-16">
+        <div class="row gx-lg-8 gx-xl-12 gy-10 gy-lg-0 mb-10">
+          <div class="col-lg-3 mt-lg-2">
+            <h3 class="display-4 mb-3 mt-7 pe-xxl-5 text-center">From Gen 1 <br> To Gen 9</h3>
+            <!-- <p class="lead fs-lg mb-0 pe-xxl-5">We <span class="underline">bring solutions</span> to make life easier
+              for our customers.</p> -->
+          </div>
+          <!-- /column -->
+          <div class="col-lg-9">
+            <div class="row row-cols-2 row-cols-md-5 gx-0 gx-md-8 gx-xl-12 gy-12" data-cues="fadeIn"
+              data-group="clients">
+              <div class="col">
+                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/p1.png" alt="" />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col">
+                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/p2.png" alt="" />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col">
+                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/p3.png" alt="" />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col">
+                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/p5.png" alt="" />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col">
+                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/p6.png" alt="" />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col">
+                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/p7.png" alt="" />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col">
+                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/p8.png" alt="" />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col">
+                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/p9.png" alt="" />
+                </figure>
+              </div>
+              <!--/column -->
+              <div class="col">
+                <figure class="px-3 px-md-0 px-xxl-2" data-cue="fadeIn"><img src="./assets/img/brands/p10.png" alt="" />
+                </figure>
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!-- /column -->
+        </div>
+        <!-- /.row -->
+      </div>
+      <!-- /.container -->
+    </section>
+    <!-- /section -->
+    <section id="pricing" class="wrapper bg-light angled upper-end lower-end">
+      <div class="mx-5 mx-lg-16 mt-15 mb-20">
+        <h1 class="text-center">Pokemon Data</h1>
+        <div class="input-group mb-3 mt-3">
+          <input type="text" class="form-control" placeholder="Search by pokemon id or name.." id="search-input">
+          <button class="btn btn-primary" type="button" id="search-button">Search</button>
+        </div>
+        <div class="row mt-5 mb-3" id="pokemon-list"></div>
+        <div class="text-center"><button id="fetchPokemonsBtn" class="btn btn-primary">Next</button></div>
+      </div>
+
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title mt-n8 mt-lg-n9 mx-nauto" id="exampleModalLabel">Pokemon Detail</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary mt-n10" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+      </div>
+    </section>
+    <!-- /section -->
+    <section id="join" class="wrapper bg-gray angled upper-end lower-end">
+      <div class="container py-14 py-md-16">
+        <div class="row gy-10 gx-lg-8 gx-xl-12 align-items-center">
+          <div class="col-lg-7 position-relative">
+            <div class="row gx-md-5 gy-5">
+              <div class="col-md-6">
+                <figure class="rounded mt-md-10 position-relative" data-cue="fadeIn" data-delay="300"><img src="./assets/img/do-5.jpg" alt=""></figure>
+              </div>
+              <!--/column -->
+              <div class="col-md-6">
+                <div class="row gx-md-5 gy-5">
+                  <div class="col-md-12 order-md-2">
+                    <figure class="rounded" data-cue="fadeIn" data-delay="1100"><img src="./assets/img/do-6.jpg" alt=""></figure>
+                  </div>
+                  <!--/column -->
+                  <div class="col-md-10">
+                    <div class="card bg-pale-primary text-center" data-cue="fadeIn" data-delay="800">
+                      <div class="card-body py-11 counter-wrapper">
+                        <h3 class="counter text-nowrap">1000+</h3>
+                        <p class="mb-0">Pokemons</p>
+                      </div>
+                      <!--/.card-body -->
+                    </div>
+                    <!--/.card -->
+                  </div>
+                  <!--/column -->
+                </div>
+                <!--/.row -->
+              </div>
+              <!--/column -->
+            </div>
+            <!--/.row -->
+          </div>
+          <!--/column -->
+          <div class="col-lg-5">
+            <h2 class="display-4 mb-3">Let’s Talk</h2>
+            <p class="lead fs-lg">If you have any feedback for me, please click the <span class="underline">button below</span></p>
+            <p>Pokémon was launched in Japan in 1996 and today is one of the most popular children's entertainment properties in the world.</p>
+            <a href="mailto:fikroyz@gmail.com" class="btn btn-primary rounded-pill mt-2">Send Mail</a>
+          </div>
+          <!--/column -->
+        </div>
+        <!--/.row -->
+      </div>
+    </section>
+  </div>
+  <!-- /.content-wrapper -->
+  <footer class="bg-dark text-inverse">
+    <div class="container py-13 py-md-15">
+      <div class="mt-10"></div>
+      <div class="row gy-6 gy-lg-0">
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <img class="mb-4 w-50" src="./assets/img/zenwalker-logo.png" srcset="./assets/img/zenwalker-logo.png 2x" alt="" />
+            <p class="mb-4">© 2024 ZenPokeAPI. <br class="d-none d-lg-block" />All rights reserved.</p>
+            <nav class="nav social social-white">
+              <a href="#"><i class="uil uil-twitter"></i></a>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+              <a href="#"><i class="uil uil-dribbble"></i></a>
+              <a href="#"><i class="uil uil-instagram"></i></a>
+              <a href="#"><i class="uil uil-youtube"></i></a>
+            </nav>
+            <!-- /.social -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Get in Touch</h4>
+            <address class="pe-xl-15 pe-xxl-17">Bekasi, West Java, Indonesia</address>
+            <a href="mailto:#">info@email.com</a><br /> 00 (123) 456 78 90
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-4 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Learn More</h4>
+            <ul class="list-unstyled  mb-0">
+              <li><a class="nav-link scroll" href="#about">About</a></li>
+              <li><a class="nav-link scroll" href="#pricing">PokeAPI</a></li>
+              <li><a class="nav-link scroll" href="#join">Contact Me</a></li>
+            </ul>
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+        <div class="col-md-12 col-lg-3">
+          <div class="widget">
+            <h4 class="widget-title text-white mb-3">Our Newsletter</h4>
+            <p class="mb-5">Subscribe to get our news.</p>
+            <div class="newsletter-wrapper">
+              <!-- Begin Mailchimp Signup Form -->
+              <div id="mc_embed_signup2">
+                <form
+                  action="https://elemisfreebies.us20.list-manage.com/subscribe/post?u=aa4947f70a475ce162057838d&amp;id=b49ef47a9a"
+                  method="post" id="mc-embedded-subscribe-form2" name="mc-embedded-subscribe-form"
+                  class="validate dark-fields" target="_blank" novalidate>
+                  <div id="mc_embed_signup_scroll2">
+                    <div class="mc-field-group input-group form-floating">
+                      <input type="email" value="" name="EMAIL" class="required email form-control"
+                        placeholder="Email Address" id="mce-EMAIL2">
+                      <label for="mce-EMAIL2">Email Address</label>
+                      <input type="submit" value="Join" name="subscribe" id="mc-embedded-subscribe2"
+                        class="btn btn-primary ">
+                    </div>
+                    <div id="mce-responses2" class="clear">
+                      <div class="response" id="mce-error-response2" style="display:none"></div>
+                      <div class="response" id="mce-success-response2" style="display:none"></div>
+                    </div>
+                    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
+                        name="b_ddc180777a163e0f9f66ee014_4b1bcfa0bc" tabindex="-1" value=""></div>
+                    <div class="clear"></div>
+                  </div>
+                </form>
+              </div>
+              <!--End mc_embed_signup-->
+            </div>
+            <!-- /.newsletter-wrapper -->
+          </div>
+          <!-- /.widget -->
+        </div>
+        <!-- /column -->
+      </div>
+      <!--/.row -->
+    </div>
+    <!-- /.container -->
+  </footer>
+  <div class="progress-wrap">
+    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+      <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+    </svg>
+  </div>
+
+  <script src="./assets/js/plugins.js"></script>
+  <script src="./assets/js/theme.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
