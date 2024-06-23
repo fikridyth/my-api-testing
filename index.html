@@ -404,7 +404,8 @@
       <div class="mx-5 mx-lg-16 mt-15 mb-20">
         <h1 class="text-center">Pokemon Data</h1>
         <div class="input-group mb-3 mt-3">
-          <input type="text" class="form-control" placeholder="Search by pokemon id or name.." id="search-input">
+          <input type="text" class="form-control" onkeypress='return event.charCode >= 48 && event.charCode <= 57' 
+            maxlength="4" placeholder="Search by pokemon id.." id="search-input">
           <button class="btn btn-primary" type="button" id="search-button">Search</button>
         </div>
         <div class="row mt-5 mb-3" id="pokemon-list"></div>
